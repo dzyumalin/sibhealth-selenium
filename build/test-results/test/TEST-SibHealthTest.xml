@@ -1,16 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="SibHealthTest" tests="1" skipped="0" failures="1" errors="0" timestamp="2021-11-14T12:26:54" hostname="DESKTOP-U6LQ95N" time="7.354">
+<testsuite name="SibHealthTest" tests="1" skipped="0" failures="1" errors="0" timestamp="2021-11-15T14:16:10" hostname="DESKTOP-U6LQ95N" time="17.15">
   <properties/>
-  <testcase name="loginTest()" classname="SibHealthTest" time="7.354">
-    <failure message="org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element &lt;button ng-click=&quot;modals.authorization.login(userLoginForm.$valid)&quot; ng-disabled=&quot;userLoginForm.$invalid&quot; tabindex=&quot;23&quot; class=&quot;btn btn_blue btn_XXL_lg ng-binding&quot; disabled=&quot;disabled&quot;&gt;...&lt;/button&gt; is not clickable at point (959, 629). Other element would receive the click: &lt;div class=&quot;form-group&quot;&gt;...&lt;/div&gt;&#10;  (Session info: chrome=95.0.4638.69)&#10;Build info: version: '4.0.0-rc-1', revision: 'bc5511cbda'&#10;System info: host: 'DESKTOP-U6LQ95N', ip: '192.168.0.103', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_311'&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Command: [86b6de137d622db00a17b6bd089bb357, clickElement {id=cb53f073-d571-4f3b-acad-fb68153b9932}]&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 95.0.4638.69, chrome: {chromedriverVersion: 95.0.4638.69 (6a1600ed572fe..., userDataDir: C:\Users\zyuma\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:52773}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:52773/devtoo..., se:cdpVersion: 95.0.4638.69, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}&#10;Element: [[ChromeDriver: chrome on WINDOWS (86b6de137d622db00a17b6bd089bb357)] -&gt; xpath: //*[@class='form-group']/button]&#10;Session ID: 86b6de137d622db00a17b6bd089bb357" type="org.openqa.selenium.ElementClickInterceptedException">org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element &lt;button ng-click=&quot;modals.authorization.login(userLoginForm.$valid)&quot; ng-disabled=&quot;userLoginForm.$invalid&quot; tabindex=&quot;23&quot; class=&quot;btn btn_blue btn_XXL_lg ng-binding&quot; disabled=&quot;disabled&quot;&gt;...&lt;/button&gt; is not clickable at point (959, 629). Other element would receive the click: &lt;div class=&quot;form-group&quot;&gt;...&lt;/div&gt;
+  <testcase name="loginTest()" classname="SibHealthTest" time="17.15">
+    <failure message="org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;html/body/div[7]/div[2]/p&quot;}&#10;  (Session info: chrome=95.0.4638.69)&#10;For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element&#10;Build info: version: '4.0.0-rc-1', revision: 'bc5511cbda'&#10;System info: host: 'DESKTOP-U6LQ95N', ip: '192.168.0.103', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_311'&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Command: [26ec2b1e64c509d86ecf5be3715d2012, findElement {using=xpath, value=html/body/div[7]/div[2]/p}]&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 95.0.4638.69, chrome: {chromedriverVersion: 95.0.4638.69 (6a1600ed572fe..., userDataDir: C:\Users\zyuma\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:62698}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:62698/devtoo..., se:cdpVersion: 95.0.4638.69, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}&#10;Session ID: 26ec2b1e64c509d86ecf5be3715d2012" type="org.openqa.selenium.NoSuchElementException">org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;html/body/div[7]/div[2]/p&quot;}
   (Session info: chrome=95.0.4638.69)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
 Build info: version: '4.0.0-rc-1', revision: 'bc5511cbda'
 System info: host: 'DESKTOP-U6LQ95N', ip: '192.168.0.103', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_311'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [86b6de137d622db00a17b6bd089bb357, clickElement {id=cb53f073-d571-4f3b-acad-fb68153b9932}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 95.0.4638.69, chrome: {chromedriverVersion: 95.0.4638.69 (6a1600ed572fe..., userDataDir: C:\Users\zyuma\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:52773}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:52773/devtoo..., se:cdpVersion: 95.0.4638.69, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Element: [[ChromeDriver: chrome on WINDOWS (86b6de137d622db00a17b6bd089bb357)] -&gt; xpath: //*[@class='form-group']/button]
-Session ID: 86b6de137d622db00a17b6bd089bb357
+Command: [26ec2b1e64c509d86ecf5be3715d2012, findElement {using=xpath, value=html/body/div[7]/div[2]/p}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 95.0.4638.69, chrome: {chromedriverVersion: 95.0.4638.69 (6a1600ed572fe..., userDataDir: C:\Users\zyuma\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:62698}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:62698/devtoo..., se:cdpVersion: 95.0.4638.69, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 26ec2b1e64c509d86ecf5be3715d2012
 	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
 	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
@@ -22,10 +22,12 @@ Session ID: 86b6de137d622db00a17b6bd089bb357
 	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:164)
 	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:139)
 	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:547)
-	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:251)
-	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:77)
-	at pages.BeforeLoginPage.clickOnButtonForAuth(BeforeLoginPage.java:32)
-	at SibHealthTest.loginTest(SibHealthTest.java:26)
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:162)
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:60)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:381)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:373)
+	at pages.BeforeLoginPage.clickOnButtonForAuth(BeforeLoginPage.java:33)
+	at SibHealthTest.loginTest(SibHealthTest.java:27)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -121,15 +123,15 @@ Session ID: 86b6de137d622db00a17b6bd089bb357
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[[Test worker] INFO io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 95.0.4638.69 (resolved driver for Chrome 95)
 [Test worker] INFO io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\zyuma\.cache\selenium\chromedriver\win32\95.0.4638.69\chromedriver.exe
-Starting ChromeDriver 95.0.4638.69 (6a1600ed572fedecd573b6c2b90a22fe6392a410-refs/branch-heads/4638@{#984}) on port 37946
+Starting ChromeDriver 95.0.4638.69 (6a1600ed572fedecd573b6c2b90a22fe6392a410-refs/branch-heads/4638@{#984}) on port 43013
 Only local connections are allowed.
 Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
 ChromeDriver was started successfully.
-Nov 14, 2021 7:26:57 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+Nov 15, 2021 9:16:13 PM org.openqa.selenium.remote.ProtocolHandshake createSession
 INFO: Detected dialect: W3C
-Nov 14, 2021 7:26:57 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+Nov 15, 2021 9:16:14 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
 WARNING: Unable to find an exact match for CDP version 95, so returning the closest version found: 93
-Nov 14, 2021 7:26:57 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+Nov 15, 2021 9:16:14 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
 INFO: Found CDP implementation for version 95 of 93
 ]]></system-err>
 </testsuite>

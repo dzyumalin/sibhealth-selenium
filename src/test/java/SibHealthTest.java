@@ -9,6 +9,8 @@ import pages.BeforeLoginPage;
 
 import java.time.Duration;
 
+import static org.junit.jupiter.api.Assertions.*;
+
 public class SibHealthTest{
 
     @Test
@@ -20,11 +22,11 @@ public class SibHealthTest{
         driver.get(Web.config.baseUrl());
         BeforeLoginPage beforeLoginPage = new BeforeLoginPage(driver);
 
-        beforeLoginPage
+        String notificationMessage = beforeLoginPage
                 .clickOnLogin()
                 .enterLoginAndPassword(Web.config.registerNumber(), Web.config.password())
                 .clickOnButtonForAuth();
-
+        assertEquals("Вы успешно авторизованы", notificationMessage);
         driver.quit();
     }
 
